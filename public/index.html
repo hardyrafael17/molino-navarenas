@@ -1,89 +1,155 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Molino Navarenas</title>
+    <meta property="og:type" content="website">
+    <meta name="description" content="El Molino Navarenas se encuentra en San Martín del Pimpollar, en Castilla y León, y ofrece patio y vistas al río. Ofrece vistas al lago y se encuentra a 18 km de Arenas de San Pedro.
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.10.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.10.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.10.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+">
+    <link rel="icon" type="image/png" sizes="717x746" href="assets/img/Logo.png">
+    <link rel="icon" type="image/png" sizes="717x746" href="assets/img/Logo.png">
+    <link rel="icon" type="image/png" sizes="717x746" href="assets/img/Logo.png">
+    <link rel="icon" type="image/png" sizes="717x746" href="assets/img/Logo.png">
+    <link rel="icon" type="image/png" sizes="717x746" href="assets/img/Logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav"><img style="height: 80px;width: 80px;" src="assets/img/Logo%20sin%20fondo.png"><a class="navbar-brand logo" href="#" style="margin-left: 18px;">Molino&nbsp; Navarenas</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria/Fotos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro" style="padding: 12px 0px;">
+            <h1 class="display-3" style="padding: 18px;padding-top: 45px;margin-bottom: 0px;">Escapada Rural Única</h1>
+            <div class="container d-xxl-flex" style="min-height: 308px;max-width: 790px;margin-bottom: 11px;">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/jacuzzi/IMG_20210123_204549.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="assets/img/habitacion/IMG_20210816_134410.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="assets/img/salon%20principal/IMG_20210206_112628.jpg" alt="Slide Image"></div>
+                    </div>
+                    <div>
+                        <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><!-- End: Previous -->
+                        <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a><!-- End: Next -->
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card"></div>
+            <div class="container">
+                <p class="lead" style="font-size: 19px;margin-top: 15px;"><strong>Molino de Navarenas</strong>&nbsp;es un antiguo molino de agua situado en uno de los cañones del río que lleva su mismo nombre, totalmente rehabilitado como casa rural en el año 2019, conservando la estructura de piedra y agregando madera y forja.<br><br>Es una casa romántica con todo el encanto y comodidades para una idílica estancia en pareja. Ubicado en las afueras de San Martín del Pimpollar, un pueblo rodeado de montañas y ríos, esta casa rural destaca por tener una Pequeña laguna donde bañarse en la puerta del molino y, para deleite de los amantes del sonido del agua entre las piedras, el río discurre a los pies del molino durante todo el año. Dispone, además, de todas las comodidades de estar cerca del casco urbano, pero independiente y rodeada de naturaleza.</p>
+            </div><!-- Start: Article Clean -->
+            <section class="article-clean"></section><!-- End: Article Clean -->
+        </section>
+        <section class="portfolio-block photography">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a><img class="img-fluid image" data-bs-toggle="tooltip" data-bss-tooltip="" src="assets/img/interior/4.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/interior/5.jpg"></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/exterior/IMG_20210206_120448.jpg"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-xl-end justify-content-xxl-center align-items-xxl-end content">
+                    <h3 class="d-xl-flex justify-content-xl-center align-items-xl-center">Te gusta lo que vez? Hay Mucho Más!</h3><a class="btn btn-outline-primary btn-lg" role="button" href="galeria.html">Ir a la galería de fotos</a>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block skills" style="color: var(--bs-blue);">
+            <div class="container">
+                <!-- Start: portfolio heading -->
+                <div class="heading">
+                    <h2>un lugar especial</h2>
+                </div><!-- End: portfolio heading -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-bonfire bg-primary" style="font-size: 70px;color: var(--bs-white);border-radius: 6px;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Chimenea</h3>
+                                <p class="card-text">Disfruta del calor de dos chimeneas tradicionales una en el salón principal y otra en el dormitorio, abastecidas con leña. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="fa fa-bath bg-primary" style="font-size: 70px;color: var(--bs-white);border-radius: 6px;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Jacuzzy</h3>
+                                <p class="card-text">Nuestro jacuzzi en la habitación con hidroterapia y luces para darte la experiencia romántica y el baño perfecto, una experiencia inolvidable. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-wifi" style="border-radius: 6px;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Wi-Fi</h3>
+                                <p class="card-text">Aunque sea una escapada de lo convencional, estar conectado siempre es una necesidad, por eso tenemos WiFi que alcanza la casa completa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="portfolio-block website gradient">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Molino Navarenas</h3>
+                    <p><a class="link-light" href="https://goo.gl/maps/1b4onLZJvwxyNdXU9">61 Calle Gredos, 05132 San Martín del Pimpollar, España<br></a><a class="link-light" href="tel: 663-56-88-46" data-bs-toggle="tel">Tel.: 663-56-88-46<br></a><a class="link-light" href="mailto:molinonavarenas@gmail.com " data-bs-toggle="mail">molinonavarenas@gmail.com</a><br></p>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="screen">
+                            <div class="screen-content" style="background: url(&quot;assets/img/Logo.png&quot;) center / contain no-repeat;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer"><div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d189.99208584828884!2d-5.0557682!3d40.367332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd40798b88c654e7%3A0xfca5d99bfbb3afb2!2sMolino%20Navarenas!5e0!3m2!1sen!2ses!4v1643722017099!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        <hr style="margin-bottom: 65px;">
+        <div class="container">
+            <div class="links"><a href="contacto.html">Contacto</a><a href="galeria.html">Galería</a><a href="servicios.html">Servicios</a></div>
+            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="https://goo.gl/maps/1b4onLZJvwxyNdXU9" target="_blank"><i class="icon ion-social-google"></i></a><a href="https://goo.gl/maps/1b4onLZJvwxyNdXU9" target="_blank"><i class="fa fa-map-o"></i></a></div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
 </html>
